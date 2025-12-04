@@ -1,0 +1,650 @@
+$date
+	Tue Nov 11 21:46:54 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_decision_tree $end
+$var wire 8 ! tree_depth [7:0] $end
+$var wire 1 " is_attack $end
+$var wire 8 # final_node [7:0] $end
+$var wire 1 $ error $end
+$var wire 1 % done $end
+$var reg 11 & arb_id_dec [10:0] $end
+$var reg 11 ' byte_sum [10:0] $end
+$var reg 1 ( clk $end
+$var reg 4 ) data_length [3:0] $end
+$var reg 8 * first_byte [7:0] $end
+$var reg 8 + last_byte [7:0] $end
+$var reg 1 , rst_n $end
+$var reg 1 - start $end
+$var reg 32 . time_delta [31:0] $end
+$scope module dut $end
+$var wire 11 / arb_id_dec [10:0] $end
+$var wire 11 0 byte_sum [10:0] $end
+$var wire 1 ( clk $end
+$var wire 64 1 current_node_data [63:0] $end
+$var wire 4 2 data_length [3:0] $end
+$var wire 8 3 first_byte [7:0] $end
+$var wire 8 4 last_byte [7:0] $end
+$var wire 1 , rst_n $end
+$var wire 1 - start $end
+$var wire 32 5 time_delta [31:0] $end
+$var wire 27 6 threshold [26:0] $end
+$var wire 1 7 selector_error $end
+$var wire 1 8 selector_done $end
+$var wire 32 9 selected_feature [31:0] $end
+$var wire 1 : scale_done $end
+$var wire 8 ; right_child [7:0] $end
+$var wire 8 < node_type [7:0] $end
+$var wire 8 = node_id [7:0] $end
+$var wire 8 > next_node [7:0] $end
+$var wire 8 ? left_child [7:0] $end
+$var wire 1 @ is_leaf $end
+$var wire 1 A go_left $end
+$var wire 3 B feature_id [2:0] $end
+$var wire 32 C feature_5_scaled [31:0] $end
+$var wire 32 D feature_4_scaled [31:0] $end
+$var wire 32 E feature_3_scaled [31:0] $end
+$var wire 32 F feature_2_scaled [31:0] $end
+$var wire 32 G feature_1_scaled [31:0] $end
+$var wire 32 H feature_0_scaled [31:0] $end
+$var wire 1 I compare_done $end
+$var parameter 3 J CLASSIFY $end
+$var parameter 3 K COMPARE $end
+$var parameter 3 L DECODE $end
+$var parameter 3 M ERROR_STATE $end
+$var parameter 3 N IDLE $end
+$var parameter 8 O MAX_DEPTH $end
+$var parameter 3 P NEXT_NODE $end
+$var parameter 3 Q SCALE $end
+$var reg 1 R compare_valid $end
+$var reg 8 S current_node_addr [7:0] $end
+$var reg 8 T depth_counter [7:0] $end
+$var reg 1 % done $end
+$var reg 1 $ error $end
+$var reg 8 U final_node [7:0] $end
+$var reg 1 " is_attack $end
+$var reg 1 V scale_valid $end
+$var reg 1 W selector_valid $end
+$var reg 3 X state [2:0] $end
+$var reg 8 Y tree_depth [7:0] $end
+$scope module comparator $end
+$var wire 1 ( clk $end
+$var wire 1 , rst_n $end
+$var wire 1 R valid_in $end
+$var wire 27 Z threshold_raw [26:0] $end
+$var wire 32 [ threshold_extended [31:0] $end
+$var wire 32 \ feature_value [31:0] $end
+$var reg 1 A go_left $end
+$var reg 1 I valid_out $end
+$upscope $end
+$scope module decoder $end
+$var wire 1 @ is_leaf $end
+$var wire 64 ] node_data [63:0] $end
+$var wire 27 ^ threshold [26:0] $end
+$var wire 8 _ right_child [7:0] $end
+$var wire 8 ` node_type [7:0] $end
+$var wire 8 a node_id [7:0] $end
+$var wire 8 b left_child [7:0] $end
+$var wire 3 c feature_id [2:0] $end
+$upscope $end
+$scope module scaler $end
+$var wire 11 d arb_id_dec [10:0] $end
+$var wire 11 e byte_sum [10:0] $end
+$var wire 1 ( clk $end
+$var wire 4 f data_length [3:0] $end
+$var wire 8 g first_byte [7:0] $end
+$var wire 8 h last_byte [7:0] $end
+$var wire 1 , rst_n $end
+$var wire 32 i time_delta [31:0] $end
+$var wire 1 V valid_in $end
+$var reg 32 j f0_comb [31:0] $end
+$var reg 32 k f1_comb [31:0] $end
+$var reg 32 l f2_comb [31:0] $end
+$var reg 32 m f3_comb [31:0] $end
+$var reg 32 n f4_comb [31:0] $end
+$var reg 32 o f5_comb [31:0] $end
+$var reg 32 p feature_0_scaled [31:0] $end
+$var reg 32 q feature_1_scaled [31:0] $end
+$var reg 32 r feature_2_scaled [31:0] $end
+$var reg 32 s feature_3_scaled [31:0] $end
+$var reg 32 t feature_4_scaled [31:0] $end
+$var reg 32 u feature_5_scaled [31:0] $end
+$var reg 1 : valid_out $end
+$upscope $end
+$scope module selector $end
+$var wire 1 ( clk $end
+$var wire 32 v feature_0_scaled [31:0] $end
+$var wire 32 w feature_1_scaled [31:0] $end
+$var wire 32 x feature_2_scaled [31:0] $end
+$var wire 32 y feature_3_scaled [31:0] $end
+$var wire 32 z feature_4_scaled [31:0] $end
+$var wire 32 { feature_5_scaled [31:0] $end
+$var wire 3 | feature_id [2:0] $end
+$var wire 1 , rst_n $end
+$var wire 1 W valid_in $end
+$var reg 1 7 error $end
+$var reg 32 } selected_feature [31:0] $end
+$var reg 1 8 valid_out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 Q
+b100 P
+b110010 O
+b0 N
+b110 M
+b10 L
+b11 K
+b101 J
+$end
+#0
+$dumpvars
+b0 }
+b0 |
+b0 {
+b0 z
+b0 y
+b0 x
+b0 w
+b0 v
+b0 u
+b0 t
+b0 s
+b0 r
+b0 q
+b0 p
+b0 o
+b0 n
+b0 m
+b0 l
+b0 k
+b0 j
+b0 i
+b0 h
+b0 g
+b0 f
+b0 e
+b0 d
+b0 c
+b1 b
+b0 a
+b0 `
+b10 _
+b101111011000000000000000 ^
+b10111101100000000000000000000010000000010000000000 ]
+b0 \
+b101111011000000000000000 [
+b101111011000000000000000 Z
+b0 Y
+b0 X
+0W
+0V
+b0 U
+b0 T
+b0 S
+0R
+0I
+b0 H
+b0 G
+b0 F
+b0 E
+b0 D
+b0 C
+b0 B
+0A
+0@
+b1 ?
+b10 >
+b0 =
+b0 <
+b10 ;
+0:
+b0 9
+08
+07
+b101111011000000000000000 6
+b0 5
+b0 4
+b0 3
+b0 2
+b10111101100000000000000000000010000000010000000000 1
+b0 0
+b0 /
+b0 .
+0-
+0,
+b0 +
+b0 *
+b0 )
+0(
+b0 '
+b0 &
+0%
+0$
+b0 #
+0"
+b0 !
+$end
+#5
+1(
+#10
+0(
+#15
+1(
+#20
+0(
+1,
+#25
+1(
+#30
+0(
+#35
+b1 X
+1V
+1-
+1(
+#40
+0(
+#45
+0V
+1:
+0-
+1(
+#50
+0(
+#55
+0:
+b10 X
+1(
+#60
+0(
+#65
+b11 X
+1W
+1(
+#70
+0(
+#75
+18
+0W
+1(
+#80
+0(
+#85
+b100 X
+1R
+08
+1(
+#90
+0(
+#95
+b1 >
+1I
+1A
+0R
+1(
+#100
+0(
+#105
+b11 >
+b1 =
+b1 a
+b1101100111000000000000000 [
+b1101100111000000000000000 6
+b1101100111000000000000000 Z
+b1101100111000000000000000 ^
+b100 ;
+b100 _
+b11 ?
+b11 b
+b10 X
+b1 T
+b100000110110011100000000000000000000100000000110000000000 1
+b100000110110011100000000000000000000100000000110000000000 ]
+b1 S
+0I
+1(
+#110
+0(
+#115
+b11 X
+1W
+1(
+#120
+0(
+#125
+0W
+18
+1(
+#130
+0(
+#135
+08
+b100 X
+1R
+1(
+#140
+0(
+#145
+0R
+1I
+1(
+#150
+0(
+#155
+b1011001 >
+b11 =
+b11 a
+b1011011 [
+b1011011 6
+b1011011 Z
+b1011011 ^
+b1011010 ;
+b1011010 _
+b1011001 ?
+b1011001 b
+0I
+b10 X
+b10 T
+b1100000000000000000000000101101101011010010110010000000000 1
+b1100000000000000000000000101101101011010010110010000000000 ]
+b11 S
+1(
+#160
+0(
+#165
+b11 X
+1W
+1(
+#170
+0(
+#175
+18
+0W
+1(
+#180
+0(
+#185
+b100 X
+1R
+08
+1(
+#190
+0(
+#195
+1I
+0R
+1(
+#200
+0(
+#205
+b1110011 >
+b1011001 =
+b1011001 a
+b101000000000000000 [
+b101000000000000000 6
+b101000000000000000 Z
+b101000000000000000 ^
+b1110100 ;
+b1110100 _
+b1110011 ?
+b1110011 b
+b10 X
+b11 T
+b101100100000000000010100000000000000001110100011100110000000000 1
+b101100100000000000010100000000000000001110100011100110000000000 ]
+b1011001 S
+0I
+1(
+#210
+0(
+#215
+b11 X
+1W
+1(
+#220
+0(
+#225
+0W
+18
+1(
+#230
+0(
+#235
+08
+b100 X
+1R
+1(
+#240
+0(
+#245
+0R
+1I
+1(
+#250
+0(
+#255
+b1111111 >
+b1110011 =
+b1110011 a
+b1011101000000000000000 [
+b1011101000000000000000 6
+b1011101000000000000000 Z
+b1011101000000000000000 ^
+b10000000 ;
+b10000000 _
+b1111111 ?
+b1111111 b
+0I
+b10 X
+b100 T
+b111001100000000101110100000000000000010000000011111110000000000 1
+b111001100000000101110100000000000000010000000011111110000000000 ]
+b1110011 S
+1(
+#260
+0(
+#265
+b11 X
+1W
+1(
+#270
+0(
+#275
+18
+0W
+1(
+#280
+0(
+#285
+b100 X
+1R
+08
+1(
+#290
+0(
+#295
+1I
+0R
+1(
+#300
+0(
+#305
+b10000001 >
+b1111111 =
+b1111111 a
+b1000101 [
+b1000101 6
+b1000101 Z
+b1000101 ^
+b10000010 ;
+b10000010 _
+b10000001 ?
+b10000001 b
+b10 X
+b101 T
+b111111100000000000000000000000100010110000010100000010000000000 1
+b111111100000000000000000000000100010110000010100000010000000000 ]
+b1111111 S
+0I
+1(
+#310
+0(
+#315
+b11 X
+1W
+1(
+#320
+0(
+#325
+0W
+18
+1(
+#330
+0(
+#335
+08
+b100 X
+1R
+1(
+#340
+0(
+#345
+0R
+1I
+1(
+#350
+0(
+#355
+b10000011 >
+b10000001 =
+b10000001 a
+b1 [
+b1 6
+b1 Z
+b1 ^
+b10000100 ;
+b10000100 _
+b10000011 ?
+b10000011 b
+0I
+b10 X
+b110 T
+b1000000100000000000000000000000000000110000100100000110000000000 1
+b1000000100000000000000000000000000000110000100100000110000000000 ]
+b10000001 S
+1(
+#360
+0(
+#365
+b11 X
+1W
+1(
+#370
+0(
+#375
+18
+0W
+1(
+#380
+0(
+#385
+b100 X
+1R
+08
+1(
+#390
+0(
+#395
+1I
+0R
+1(
+#400
+0(
+#405
+b0 >
+1@
+b10000011 =
+b10000011 a
+b0 [
+b0 6
+b0 Z
+b0 ^
+b0 ;
+b0 _
+b0 ?
+b0 b
+b1 <
+b1 `
+b10 X
+b111 T
+b1000001100000000000000000000000000000000000000000000000000000100 1
+b1000001100000000000000000000000000000000000000000000000000000100 ]
+b10000011 S
+0I
+1(
+#410
+0(
+#415
+1"
+b111 !
+b111 Y
+b10000011 #
+b10000011 U
+b101 X
+1(
+#420
+0(
+#425
+b0 X
+1%
+1(
+#430
+0(
+#435
+0%
+1(
+#440
+0(
+#445
+1(
+#450
+0(
+#455
+1(
+#460
+0(
+#465
+1(
+#470
+0(
+#475
+1(
+#480
+0(
+#485
+1(
+#490
+0(
+#495
+1(
+#500
+0(
+#505
+1(
+#510
+0(
+#515
+1(
+#520
+0(
+#525
+1(

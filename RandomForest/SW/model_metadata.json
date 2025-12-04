@@ -1,0 +1,23 @@
+{
+  "model_type": "RandomForest",
+  "features": [
+    "arb_id_dec",
+    "data_length",
+    "first_byte",
+    "last_byte",
+    "byte_sum",
+    "time_delta"
+  ],
+  "n_features": 6,
+  "forest_info": {
+    "n_estimators": 21,
+    "total_nodes": 4117,
+    "total_leaves": 2069,
+    "avg_nodes_per_tree": 196.04761904761904,
+    "avg_leaves_per_tree": 98.52380952380952,
+    "max_depth": 10
+  },
+  "accuracy": 0.996125014932505,
+  "oob_score": 0.99607834353412,
+  "estimated_fpga_memory_kb": 48.24609375
+}

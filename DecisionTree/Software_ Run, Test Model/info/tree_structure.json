@@ -1,0 +1,952 @@
+{
+  "node_id": 0,
+  "feature": "arb_id_dec",
+  "threshold": 189.5,
+  "left": {
+    "node_id": 1,
+    "feature": "byte_sum",
+    "threshold": 435.5,
+    "left": {
+      "node_id": 3,
+      "feature": "time_delta",
+      "threshold": 0.0013870000839233398,
+      "left": {
+        "node_id": 89,
+        "feature": "last_byte",
+        "threshold": 2.5,
+        "left": {
+          "node_id": 115,
+          "feature": "first_byte",
+          "threshold": 46.5,
+          "left": {
+            "node_id": 127,
+            "feature": "time_delta",
+            "threshold": 0.0010548830032348633,
+            "left": {
+              "node_id": 129,
+              "feature": "time_delta",
+              "threshold": 9.5367431640625e-06,
+              "left": {
+                "node_id": 131,
+                "leaf": true,
+                "class": 1,
+                "samples": 87
+              },
+              "right": {
+                "node_id": 132,
+                "feature": "time_delta",
+                "threshold": 1.895427703857422e-05,
+                "left": {
+                  "node_id": 151,
+                  "leaf": true,
+                  "class": 1,
+                  "samples": 50
+                },
+                "right": {
+                  "node_id": 152,
+                  "feature": "time_delta",
+                  "threshold": 0.0002535581588745117,
+                  "left": {
+                    "node_id": 163,
+                    "feature": "time_delta",
+                    "threshold": 0.000217437744140625,
+                    "left": {
+                      "node_id": 165,
+                      "leaf": true,
+                      "class": 1,
+                      "samples": 724
+                    },
+                    "right": {
+                      "node_id": 166,
+                      "leaf": true,
+                      "class": 1,
+                      "samples": 122
+                    }
+                  },
+                  "right": {
+                    "node_id": 164,
+                    "feature": "time_delta",
+                    "threshold": 0.0004494190216064453,
+                    "left": {
+                      "node_id": 171,
+                      "leaf": true,
+                      "class": 1,
+                      "samples": 710
+                    },
+                    "right": {
+                      "node_id": 172,
+                      "leaf": true,
+                      "class": 1,
+                      "samples": 3029
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "node_id": 130,
+              "leaf": true,
+              "class": 1,
+              "samples": 86
+            }
+          },
+          "right": {
+            "node_id": 128,
+            "leaf": true,
+            "class": 1,
+            "samples": 126070
+          }
+        },
+        "right": {
+          "node_id": 116,
+          "leaf": true,
+          "class": 1,
+          "samples": 56
+        }
+      },
+      "right": {
+        "node_id": 90,
+        "leaf": true,
+        "class": 1,
+        "samples": 50
+      }
+    },
+    "right": {
+      "node_id": 4,
+      "feature": "arb_id_dec",
+      "threshold": 169.5,
+      "left": {
+        "node_id": 9,
+        "leaf": true,
+        "class": 1,
+        "samples": 179
+      },
+      "right": {
+        "node_id": 10,
+        "feature": "first_byte",
+        "threshold": 50.5,
+        "left": {
+          "node_id": 57,
+          "feature": "byte_sum",
+          "threshold": 787.0,
+          "left": {
+            "node_id": 121,
+            "leaf": true,
+            "class": 0,
+            "samples": 12481
+          },
+          "right": {
+            "node_id": 122,
+            "leaf": true,
+            "class": 0,
+            "samples": 81
+          }
+        },
+        "right": {
+          "node_id": 58,
+          "leaf": true,
+          "class": 0,
+          "samples": 51
+        }
+      }
+    }
+  },
+  "right": {
+    "node_id": 2,
+    "feature": "arb_id_dec",
+    "threshold": 1328.5,
+    "left": {
+      "node_id": 5,
+      "feature": "data_length",
+      "threshold": 1.0,
+      "left": {
+        "node_id": 13,
+        "leaf": true,
+        "class": 1,
+        "samples": 113
+      },
+      "right": {
+        "node_id": 14,
+        "feature": "time_delta",
+        "threshold": 0.00028383731842041016,
+        "left": {
+          "node_id": 19,
+          "feature": "time_delta",
+          "threshold": 8.344650268554688e-07,
+          "left": {
+            "node_id": 45,
+            "leaf": true,
+            "class": 0,
+            "samples": 55
+          },
+          "right": {
+            "node_id": 46,
+            "feature": "arb_id_dec",
+            "threshold": 1022.0,
+            "left": {
+              "node_id": 63,
+              "feature": "time_delta",
+              "threshold": 1.8477439880371094e-05,
+              "left": {
+                "node_id": 81,
+                "feature": "first_byte",
+                "threshold": 144.5,
+                "left": {
+                  "node_id": 155,
+                  "feature": "time_delta",
+                  "threshold": 1.4543533325195312e-05,
+                  "left": {
+                    "node_id": 161,
+                    "feature": "arb_id_dec",
+                    "threshold": 730.5,
+                    "left": {
+                      "node_id": 169,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 153037
+                    },
+                    "right": {
+                      "node_id": 170,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 12207
+                    }
+                  },
+                  "right": {
+                    "node_id": 162,
+                    "feature": "byte_sum",
+                    "threshold": 27.5,
+                    "left": {
+                      "node_id": 167,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 897
+                    },
+                    "right": {
+                      "node_id": 168,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 5839
+                    }
+                  }
+                },
+                "right": {
+                  "node_id": 156,
+                  "feature": "arb_id_dec",
+                  "threshold": 248.5,
+                  "left": {
+                    "node_id": 157,
+                    "leaf": true,
+                    "class": 0,
+                    "samples": 7171
+                  },
+                  "right": {
+                    "node_id": 158,
+                    "feature": "first_byte",
+                    "threshold": 148.5,
+                    "left": {
+                      "node_id": 159,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 86
+                    },
+                    "right": {
+                      "node_id": 160,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 6813
+                    }
+                  }
+                }
+              },
+              "right": {
+                "node_id": 82,
+                "feature": "time_delta",
+                "threshold": 0.00011289119720458984,
+                "left": {
+                  "node_id": 83,
+                  "feature": "time_delta",
+                  "threshold": 3.254413604736328e-05,
+                  "left": {
+                    "node_id": 85,
+                    "feature": "arb_id_dec",
+                    "threshold": 293.5,
+                    "left": {
+                      "node_id": 139,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 1655
+                    },
+                    "right": {
+                      "node_id": 140,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 2204
+                    }
+                  },
+                  "right": {
+                    "node_id": 86,
+                    "feature": "byte_sum",
+                    "threshold": 385.5,
+                    "left": {
+                      "node_id": 87,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 2555
+                    },
+                    "right": {
+                      "node_id": 88,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 528
+                    }
+                  }
+                },
+                "right": {
+                  "node_id": 84,
+                  "feature": "time_delta",
+                  "threshold": 0.0002599954605102539,
+                  "left": {
+                    "node_id": 99,
+                    "feature": "arb_id_dec",
+                    "threshold": 566.0,
+                    "left": {
+                      "node_id": 119,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 83769
+                    },
+                    "right": {
+                      "node_id": 120,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 10789
+                    }
+                  },
+                  "right": {
+                    "node_id": 100,
+                    "feature": "data_length",
+                    "threshold": 11.0,
+                    "left": {
+                      "node_id": 101,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 165
+                    },
+                    "right": {
+                      "node_id": 102,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 5246
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "node_id": 64,
+              "feature": "byte_sum",
+              "threshold": 639.0,
+              "left": {
+                "node_id": 65,
+                "feature": "first_byte",
+                "threshold": 113.5,
+                "left": {
+                  "node_id": 77,
+                  "feature": "byte_sum",
+                  "threshold": 471.0,
+                  "left": {
+                    "node_id": 111,
+                    "feature": "last_byte",
+                    "threshold": 10.5,
+                    "left": {
+                      "node_id": 137,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 2075
+                    },
+                    "right": {
+                      "node_id": 138,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 649
+                    }
+                  },
+                  "right": {
+                    "node_id": 112,
+                    "feature": "time_delta",
+                    "threshold": 1.1563301086425781e-05,
+                    "left": {
+                      "node_id": 113,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 121
+                    },
+                    "right": {
+                      "node_id": 114,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 51
+                    }
+                  }
+                },
+                "right": {
+                  "node_id": 78,
+                  "feature": "time_delta",
+                  "threshold": 1.2993812561035156e-05,
+                  "left": {
+                    "node_id": 79,
+                    "leaf": true,
+                    "class": 0,
+                    "samples": 64
+                  },
+                  "right": {
+                    "node_id": 80,
+                    "leaf": true,
+                    "class": 0,
+                    "samples": 50
+                  }
+                }
+              },
+              "right": {
+                "node_id": 66,
+                "leaf": true,
+                "class": 1,
+                "samples": 52
+              }
+            }
+          }
+        },
+        "right": {
+          "node_id": 20,
+          "feature": "time_delta",
+          "threshold": 0.0010465383529663086,
+          "left": {
+            "node_id": 21,
+            "feature": "arb_id_dec",
+            "threshold": 564.5,
+            "left": {
+              "node_id": 23,
+              "feature": "arb_id_dec",
+              "threshold": 192.5,
+              "left": {
+                "node_id": 27,
+                "feature": "byte_sum",
+                "threshold": 492.5,
+                "left": {
+                  "node_id": 55,
+                  "feature": "time_delta",
+                  "threshold": 0.0006450414657592773,
+                  "left": {
+                    "node_id": 61,
+                    "leaf": true,
+                    "class": 1,
+                    "samples": 75
+                  },
+                  "right": {
+                    "node_id": 62,
+                    "leaf": true,
+                    "class": 1,
+                    "samples": 60
+                  }
+                },
+                "right": {
+                  "node_id": 56,
+                  "leaf": true,
+                  "class": 1,
+                  "samples": 82
+                }
+              },
+              "right": {
+                "node_id": 28,
+                "feature": "arb_id_dec",
+                "threshold": 250.0,
+                "left": {
+                  "node_id": 29,
+                  "feature": "first_byte",
+                  "threshold": 195.5,
+                  "left": {
+                    "node_id": 91,
+                    "feature": "arb_id_dec",
+                    "threshold": 203.5,
+                    "left": {
+                      "node_id": 109,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 2648
+                    },
+                    "right": {
+                      "node_id": 110,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 1571
+                    }
+                  },
+                  "right": {
+                    "node_id": 92,
+                    "feature": "byte_sum",
+                    "threshold": 1044.0,
+                    "left": {
+                      "node_id": 93,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 81
+                    },
+                    "right": {
+                      "node_id": 94,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 186
+                    }
+                  }
+                },
+                "right": {
+                  "node_id": 30,
+                  "feature": "arb_id_dec",
+                  "threshold": 380.5,
+                  "left": {
+                    "node_id": 31,
+                    "feature": "last_byte",
+                    "threshold": 24.5,
+                    "left": {
+                      "node_id": 33,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 867
+                    },
+                    "right": {
+                      "node_id": 34,
+                      "leaf": true,
+                      "class": 1,
+                      "samples": 599
+                    }
+                  },
+                  "right": {
+                    "node_id": 32,
+                    "feature": "first_byte",
+                    "threshold": 80.5,
+                    "left": {
+                      "node_id": 39,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 4107
+                    },
+                    "right": {
+                      "node_id": 40,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 1476
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "node_id": 24,
+              "feature": "first_byte",
+              "threshold": 10.5,
+              "left": {
+                "node_id": 25,
+                "feature": "data_length",
+                "threshold": 11.0,
+                "left": {
+                  "node_id": 35,
+                  "feature": "first_byte",
+                  "threshold": 3.5,
+                  "left": {
+                    "node_id": 37,
+                    "leaf": true,
+                    "class": 0,
+                    "samples": 97
+                  },
+                  "right": {
+                    "node_id": 38,
+                    "feature": "time_delta",
+                    "threshold": 0.0007565021514892578,
+                    "left": {
+                      "node_id": 135,
+                      "leaf": true,
+                      "class": 1,
+                      "samples": 71
+                    },
+                    "right": {
+                      "node_id": 136,
+                      "leaf": true,
+                      "class": 1,
+                      "samples": 50
+                    }
+                  }
+                },
+                "right": {
+                  "node_id": 36,
+                  "feature": "arb_id_dec",
+                  "threshold": 1012.0,
+                  "left": {
+                    "node_id": 97,
+                    "feature": "byte_sum",
+                    "threshold": 566.5,
+                    "left": {
+                      "node_id": 141,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 327
+                    },
+                    "right": {
+                      "node_id": 142,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 194
+                    }
+                  },
+                  "right": {
+                    "node_id": 98,
+                    "leaf": true,
+                    "class": 0,
+                    "samples": 94
+                  }
+                }
+              },
+              "right": {
+                "node_id": 26,
+                "feature": "last_byte",
+                "threshold": 0.5,
+                "left": {
+                  "node_id": 41,
+                  "leaf": true,
+                  "class": 0,
+                  "samples": 56
+                },
+                "right": {
+                  "node_id": 42,
+                  "feature": "time_delta",
+                  "threshold": 0.0003451108932495117,
+                  "left": {
+                    "node_id": 43,
+                    "feature": "first_byte",
+                    "threshold": 198.5,
+                    "left": {
+                      "node_id": 59,
+                      "leaf": true,
+                      "class": 1,
+                      "samples": 72
+                    },
+                    "right": {
+                      "node_id": 60,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 50
+                    }
+                  },
+                  "right": {
+                    "node_id": 44,
+                    "feature": "arb_id_dec",
+                    "threshold": 1299.0,
+                    "left": {
+                      "node_id": 47,
+                      "leaf": true,
+                      "class": 1,
+                      "samples": 703
+                    },
+                    "right": {
+                      "node_id": 48,
+                      "leaf": true,
+                      "class": 1,
+                      "samples": 52
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "node_id": 22,
+            "feature": "arb_id_dec",
+            "threshold": 1023.0,
+            "left": {
+              "node_id": 49,
+              "feature": "arb_id_dec",
+              "threshold": 565.5,
+              "left": {
+                "node_id": 67,
+                "feature": "arb_id_dec",
+                "threshold": 252.5,
+                "left": {
+                  "node_id": 103,
+                  "feature": "last_byte",
+                  "threshold": 251.5,
+                  "left": {
+                    "node_id": 123,
+                    "feature": "first_byte",
+                    "threshold": 242.5,
+                    "left": {
+                      "node_id": 149,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 29457
+                    },
+                    "right": {
+                      "node_id": 150,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 140
+                    }
+                  },
+                  "right": {
+                    "node_id": 124,
+                    "feature": "byte_sum",
+                    "threshold": 487.5,
+                    "left": {
+                      "node_id": 125,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 644
+                    },
+                    "right": {
+                      "node_id": 126,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 574
+                    }
+                  }
+                },
+                "right": {
+                  "node_id": 104,
+                  "feature": "arb_id_dec",
+                  "threshold": 380.0,
+                  "left": {
+                    "node_id": 105,
+                    "feature": "data_length",
+                    "threshold": 15.0,
+                    "left": {
+                      "node_id": 107,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 841
+                    },
+                    "right": {
+                      "node_id": 108,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 2872
+                    }
+                  },
+                  "right": {
+                    "node_id": 106,
+                    "feature": "arb_id_dec",
+                    "threshold": 500.5,
+                    "left": {
+                      "node_id": 117,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 33529
+                    },
+                    "right": {
+                      "node_id": 118,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 4079
+                    }
+                  }
+                }
+              },
+              "right": {
+                "node_id": 68,
+                "feature": "first_byte",
+                "threshold": 19.5,
+                "left": {
+                  "node_id": 69,
+                  "feature": "first_byte",
+                  "threshold": 11.5,
+                  "left": {
+                    "node_id": 145,
+                    "feature": "data_length",
+                    "threshold": 15.0,
+                    "left": {
+                      "node_id": 153,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 1650
+                    },
+                    "right": {
+                      "node_id": 154,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 2900
+                    }
+                  },
+                  "right": {
+                    "node_id": 146,
+                    "feature": "byte_sum",
+                    "threshold": 552.0,
+                    "left": {
+                      "node_id": 147,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 57
+                    },
+                    "right": {
+                      "node_id": 148,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 50
+                    }
+                  }
+                },
+                "right": {
+                  "node_id": 70,
+                  "feature": "byte_sum",
+                  "threshold": 754.0,
+                  "left": {
+                    "node_id": 71,
+                    "feature": "last_byte",
+                    "threshold": 88.0,
+                    "left": {
+                      "node_id": 75,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 1234
+                    },
+                    "right": {
+                      "node_id": 76,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 62
+                    }
+                  },
+                  "right": {
+                    "node_id": 72,
+                    "feature": "first_byte",
+                    "threshold": 219.5,
+                    "left": {
+                      "node_id": 73,
+                      "leaf": true,
+                      "class": 1,
+                      "samples": 51
+                    },
+                    "right": {
+                      "node_id": 74,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 114
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "node_id": 50,
+              "feature": "byte_sum",
+              "threshold": 624.0,
+              "left": {
+                "node_id": 51,
+                "feature": "last_byte",
+                "threshold": 63.5,
+                "left": {
+                  "node_id": 53,
+                  "feature": "first_byte",
+                  "threshold": 84.5,
+                  "left": {
+                    "node_id": 95,
+                    "feature": "last_byte",
+                    "threshold": 7.0,
+                    "left": {
+                      "node_id": 133,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 987
+                    },
+                    "right": {
+                      "node_id": 134,
+                      "leaf": true,
+                      "class": 0,
+                      "samples": 270
+                    }
+                  },
+                  "right": {
+                    "node_id": 96,
+                    "leaf": true,
+                    "class": 0,
+                    "samples": 56
+                  }
+                },
+                "right": {
+                  "node_id": 54,
+                  "leaf": true,
+                  "class": 0,
+                  "samples": 70
+                }
+              },
+              "right": {
+                "node_id": 52,
+                "leaf": true,
+                "class": 1,
+                "samples": 65
+              }
+            }
+          }
+        }
+      }
+    },
+    "right": {
+      "node_id": 6,
+      "feature": "first_byte",
+      "threshold": 0.5,
+      "left": {
+        "node_id": 7,
+        "feature": "data_length",
+        "threshold": 8.0,
+        "left": {
+          "node_id": 17,
+          "leaf": true,
+          "class": 1,
+          "samples": 63
+        },
+        "right": {
+          "node_id": 18,
+          "feature": "byte_sum",
+          "threshold": 241.5,
+          "left": {
+            "node_id": 143,
+            "leaf": true,
+            "class": 0,
+            "samples": 1080
+          },
+          "right": {
+            "node_id": 144,
+            "leaf": true,
+            "class": 0,
+            "samples": 60
+          }
+        }
+      },
+      "right": {
+        "node_id": 8,
+        "feature": "last_byte",
+        "threshold": 189.5,
+        "left": {
+          "node_id": 11,
+          "leaf": true,
+          "class": 1,
+          "samples": 923
+        },
+        "right": {
+          "node_id": 12,
+          "feature": "data_length",
+          "threshold": 15.0,
+          "left": {
+            "node_id": 15,
+            "leaf": true,
+            "class": 1,
+            "samples": 101
+          },
+          "right": {
+            "node_id": 16,
+            "leaf": true,
+            "class": 0,
+            "samples": 329
+          }
+        }
+      }
+    }
+  }
+}

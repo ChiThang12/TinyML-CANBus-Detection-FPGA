@@ -1,0 +1,18 @@
+{
+  "features": [
+    "arb_id_dec",
+    "data_length",
+    "first_byte",
+    "last_byte",
+    "byte_sum",
+    "time_delta"
+  ],
+  "n_features": 6,
+  "tree_info": {
+    "n_nodes": 173,
+    "n_leaves": 87,
+    "depth": 10
+  },
+  "accuracy": 0.9957890335682714,
+  "estimated_fpga_memory_kb": 1.5205078125
+}

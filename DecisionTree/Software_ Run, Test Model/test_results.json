@@ -1,0 +1,242 @@
+[
+  {
+    "arbitration_id": "34C",
+    "data_field": "F2820F5003EA0FA0",
+    "prediction": 0,
+    "label": "Normal",
+    "confidence": 0.6,
+    "expected": "Normal",
+    "correct": true,
+    "features": {
+      "arb_id_dec": 844,
+      "data_length": 16,
+      "first_byte": 242,
+      "last_byte": 160,
+      "byte_sum": 879,
+      "time_delta": 0.0,
+      "_metadata": {
+        "raw_arb_id": "34C",
+        "raw_data": "F2820F5003EA0FA0",
+        "raw_timestamp": 1672531205.7830172,
+        "data_str_length": 16,
+        "data_hex": "F2820F5003EA0FA0"
+      }
+    }
+  },
+  {
+    "arbitration_id": "000",
+    "data_field": "0000000000000000",
+    "prediction": 1,
+    "label": "Attack",
+    "confidence": 0.9996698580389568,
+    "expected": "Attack",
+    "correct": true,
+    "features": {
+      "arb_id_dec": 0,
+      "data_length": 16,
+      "first_byte": 0,
+      "last_byte": 0,
+      "byte_sum": 0,
+      "time_delta": 0.0006339550018310547,
+      "_metadata": {
+        "raw_arb_id": "000",
+        "raw_data": "0000000000000000",
+        "raw_timestamp": 1672531205.783651,
+        "data_str_length": 16,
+        "data_hex": "0000000000000000"
+      }
+    }
+  },
+  {
+    "arbitration_id": "000",
+    "data_field": "0000000000000000",
+    "prediction": 1,
+    "label": "Attack",
+    "confidence": 0.86,
+    "expected": "Attack",
+    "correct": true,
+    "features": {
+      "arb_id_dec": 0,
+      "data_length": 16,
+      "first_byte": 0,
+      "last_byte": 0,
+      "byte_sum": 0,
+      "time_delta": 0.0014867782592773438,
+      "_metadata": {
+        "raw_arb_id": "000",
+        "raw_data": "0000000000000000",
+        "raw_timestamp": 1672531205.785138,
+        "data_str_length": 16,
+        "data_hex": "0000000000000000"
+      }
+    }
+  },
+  {
+    "arbitration_id": "0C7",
+    "data_field": "039B3777",
+    "prediction": 0,
+    "label": "Normal",
+    "confidence": 0.9998497095473644,
+    "expected": "Normal",
+    "correct": true,
+    "features": {
+      "arb_id_dec": 199,
+      "data_length": 8,
+      "first_byte": 3,
+      "last_byte": 119,
+      "byte_sum": 332,
+      "time_delta": 5.245208740234375e-06,
+      "_metadata": {
+        "raw_arb_id": "0C7",
+        "raw_data": "039B3777",
+        "raw_timestamp": 1672531205.7851431,
+        "data_str_length": 8,
+        "data_hex": "039B3777"
+      }
+    }
+  },
+  {
+    "arbitration_id": "000",
+    "data_field": "0000000000000000",
+    "prediction": 1,
+    "label": "Attack",
+    "confidence": 0.9996698580389568,
+    "expected": "Attack",
+    "correct": true,
+    "features": {
+      "arb_id_dec": 0,
+      "data_length": 16,
+      "first_byte": 0,
+      "last_byte": 0,
+      "byte_sum": 0,
+      "time_delta": 0.0006029605865478516,
+      "_metadata": {
+        "raw_arb_id": "000",
+        "raw_data": "0000000000000000",
+        "raw_timestamp": 1672531205.785746,
+        "data_str_length": 16,
+        "data_hex": "0000000000000000"
+      }
+    }
+  },
+  {
+    "arbitration_id": "1FE",
+    "data_field": "067E7F0200008154",
+    "prediction": 0,
+    "label": "Normal",
+    "confidence": 0.9778427075724373,
+    "expected": "Normal",
+    "correct": true,
+    "features": {
+      "arb_id_dec": 510,
+      "data_length": 16,
+      "first_byte": 6,
+      "last_byte": 84,
+      "byte_sum": 474,
+      "time_delta": 0.00047707557678222656,
+      "_metadata": {
+        "raw_arb_id": "1FE",
+        "raw_data": "067E7F0200008154",
+        "raw_timestamp": 1672531205.7862232,
+        "data_str_length": 16,
+        "data_hex": "067E7F0200008154"
+      }
+    }
+  },
+  {
+    "arbitration_id": "362",
+    "data_field": "00000000",
+    "prediction": 0,
+    "label": "Normal",
+    "confidence": 0.9993446383222742,
+    "expected": "Normal",
+    "correct": true,
+    "features": {
+      "arb_id_dec": 866,
+      "data_length": 8,
+      "first_byte": 0,
+      "last_byte": 0,
+      "byte_sum": 0,
+      "time_delta": 3.814697265625e-06,
+      "_metadata": {
+        "raw_arb_id": "362",
+        "raw_data": "00000000",
+        "raw_timestamp": 1672531205.786227,
+        "data_str_length": 8,
+        "data_hex": "00000000"
+      }
+    }
+  },
+  {
+    "arbitration_id": "000",
+    "data_field": "0000000000000000",
+    "prediction": 1,
+    "label": "Attack",
+    "confidence": 1.0,
+    "expected": "Attack",
+    "correct": true,
+    "features": {
+      "arb_id_dec": 0,
+      "data_length": 16,
+      "first_byte": 0,
+      "last_byte": 0,
+      "byte_sum": 0,
+      "time_delta": 0.00013208389282226562,
+      "_metadata": {
+        "raw_arb_id": "000",
+        "raw_data": "0000000000000000",
+        "raw_timestamp": 1672531205.786359,
+        "data_str_length": 16,
+        "data_hex": "0000000000000000"
+      }
+    }
+  },
+  {
+    "arbitration_id": "0F1",
+    "data_field": "000500400000",
+    "prediction": 0,
+    "label": "Normal",
+    "confidence": 0.98026734563972,
+    "expected": "Normal",
+    "correct": true,
+    "features": {
+      "arb_id_dec": 241,
+      "data_length": 12,
+      "first_byte": 0,
+      "last_byte": 0,
+      "byte_sum": 69,
+      "time_delta": 0.0009388923645019531,
+      "_metadata": {
+        "raw_arb_id": "0F1",
+        "raw_data": "000500400000",
+        "raw_timestamp": 1672531205.787298,
+        "data_str_length": 12,
+        "data_hex": "000500400000"
+      }
+    }
+  },
+  {
+    "arbitration_id": "0AA",
+    "data_field": "2BDE2BFB42540400",
+    "prediction": 0,
+    "label": "Normal",
+    "confidence": 1.0,
+    "expected": "Normal",
+    "correct": true,
+    "features": {
+      "arb_id_dec": 170,
+      "data_length": 16,
+      "first_byte": 43,
+      "last_byte": 0,
+      "byte_sum": 713,
+      "time_delta": 1.0013580322265625e-05,
+      "_metadata": {
+        "raw_arb_id": "0AA",
+        "raw_data": "2BDE2BFB42540400",
+        "raw_timestamp": 1672531205.787308,
+        "data_str_length": 16,
+        "data_hex": "2BDE2BFB42540400"
+      }
+    }
+  }
+]
