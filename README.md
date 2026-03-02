@@ -166,30 +166,6 @@ Deterministic hardware execution simplifies formal safety verification.
 
 ---
 
-## 📂 Repository Structure (Suggested)
-
-```
-├── rtl/
-│   ├── feature_scaler.v
-│   ├── tree_engine.v
-│   ├── voting_aggregator.v
-│   ├── ids_top.v
-│
-├── rom/
-│   ├── tree_mem_init.hex
-│
-├── tb/
-│   ├── ids_tb.v
-│
-├── dataset/
-│   ├── preprocessing_scripts/
-│
-├── docs/
-│   ├── architecture.pdf
-│
-└── README.md
-```
-
 ---
 
 ## 🛠 How to Use
