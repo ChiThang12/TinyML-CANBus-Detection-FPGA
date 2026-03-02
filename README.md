@@ -1,15 +1,5 @@
 # 🚗 Deterministic Hardware-Native CAN Intrusion Detection IP Core
 
-### Wire-Speed Random Forest IDS for Automotive Security
-
-![Image](https://www.electude.com/app/uploads/2024/12/CAN07_Car_with_CAN_bus_diagram-1-959x1024.png)
-
-![Image](https://www.mouser.vn/images/marketingid/2019/microsites/175239797/DFRobot_PYNQ-Z2_BL.png)
-
-![Image](https://miro.medium.com/1%2Ai0o8mjFfCn-uD79-F1Cqkw.png)
-
-![Image](https://serokell.io/files/vz/vz1f8191.Ensemble-of-decision-trees.png)
-
 ---
 
 ## 📌 Overview
